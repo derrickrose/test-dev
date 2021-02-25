@@ -2,7 +2,10 @@ test_dev
 ------------------------------------------------------------------------------------------------------
 test_dev is my simple java app to perform back-end examples in java,
 examples :
-* Dani's godaddy assesment exam
+* Dani's godaddy assessment exam 
+==> according to me, the most appropriate data structure would be Map<String, HashSet<String>> if we don't consider category orders
+==> then it might be TreeMap<String, HasSet<String>> if we do consider category orders
+
 
 ---------------------------------------------
 
