@@ -1,6 +1,6 @@
 test_dev
 ------------------------------------------------------------------------------------------------------
-test_dev is my simple java app to perform back-end assessments in java,
+test_dev is my simple java app to perform back-end assessments,
 examples :
 * Dani's godaddy assessment exam 
 ==> according to me, the most appropriate data structure to use would be Map<String, HashSet<String>> if we don't consider sorting
