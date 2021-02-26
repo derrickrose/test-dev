@@ -5,8 +5,8 @@ import java.util.*;
 public class CategoryGrouping {
 
 
-    //considerant qu'on ignore l'odre de présentation des categories
-    //si on considère l'odre, faudrait utiliser TreeMap<Collection> à la place de HashMap<Collection>
+    //considerant qu'on ignore l'odre de présentation des categories ni des articles
+    //si on considère l'odre, faudrait utiliser TreeMap<String,TreeSet<String>>
 
     // solution 1
     public static final Map<String, String[]> groupByCategoryUsingMapOfArray(
