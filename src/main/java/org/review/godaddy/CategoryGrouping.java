@@ -28,7 +28,7 @@ public class CategoryGrouping {
                 articles = groupedByCategory.get(category);
                 // effectively, the better way to approach right here is to convert to list (while adding values) then reconvert to array
                 // so that the complexity remain O(n) ==> O(n) + O(n) = 2 * O(n) ~ O(n)
-                // since recreating a new array in each necessity of adding a new element to it does have a complexity ~ O(log(n))
+                // since recreating a new array in each necessity of adding a new element to it does have a complexity ~ O(n²)
                 newArticles = new String[articles.length + 1];
                 for (int indexArticle = 0; indexArticle < articles.length; indexArticle++) {
                     newArticles[indexArticle] = articles[indexArticle];

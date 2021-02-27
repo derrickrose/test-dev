@@ -40,3 +40,4 @@ BEST PRACTICES
 WHAT NEXT ? 
 ------------------------------------------------------------------------------------------------------
 * other assessment exams
+* example of perf check using mysql http://www.dbazine.com/oracle/or-articles/tropashko4/
